@@ -1,0 +1,88 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+html{
+   font-size: 62.5%;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+}
+body{
+   background-image: linear-gradient( to left, #2d70aa 0%, #35e9bc 120%);
+}
+/* header styles' start */
+.header{
+   width: 100%;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+   background-image: linear-gradient( to left, #2d70aa 0%, #35e9bc 120%);
+   opacity: .7;
+}
+.header__logo{
+   width: 140px;
+   height: 40px;
+   margin-left: 10px;
+   background-image: url(./pics/platziVideoLogo.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.header__logo .header__logo--link{
+   display: inline-block;
+   width: inherit;
+   height: inherit;
+}
+.header .header__user{
+   width: 100px;
+   height: 95px;
+   position: absolute;
+   top: 15px;
+   right: 15px;
+}
+.header__user--profile{
+   width: 100px;
+   height: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.user__profilePicture{
+   display: inline-block;
+   width: 35px;
+   height: 35px;
+   background-image: url(./pics/user-icon.png);
+   background-size: cover;
+   background-position: center;
+}
+.user__profileName{
+   font-size: 1.7rem;
+   color: white;
+   font-weight: bold;
+}
+.header__user--profile:hover + .user__menu--list, .user__menu--list:hover{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+.user__menu--list{
+   display: none;
+   width: 100px;
+   height: 50px;
+   /* background-color: red; */
+}
+.menu__list--options, .list__options--link{
+   list-style: none;
+   font-size: 1.5rem;
+   color: white;
+   text-align: right;
+   text-decoration: none;
+   margin-top: 7px;
+}
+.list__options--link:hover{
+   text-decoration: underline;
+}
+/* header styles' end */
