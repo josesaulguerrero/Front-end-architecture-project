@@ -20,7 +20,8 @@ body{
    justify-content: space-between;
    position: relative;
    background-image: linear-gradient( to left, #2d70aa 0%, #35e9bc 120%);
-   opacity: .7;
+   /* border-bottom: 1px solid darkblue; */
+   box-shadow: 0 1px 12px #07508f;
 }
 .header__logo{
    width: 140px;
@@ -80,9 +81,10 @@ body{
    color: white;
    text-align: right;
    text-decoration: none;
-   margin-top: 7px;
+   margin-top: 13px;
 }
 .list__options--link:hover{
    text-decoration: underline;
+   color: rgb(0, 252, 96);
 }
 /* header styles' end */
