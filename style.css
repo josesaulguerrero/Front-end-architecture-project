@@ -284,8 +284,8 @@ body {
 /* footer styles' end */
 @media screen and (max-width: 1024px){
 	.main{
-		height: 90vh;
-		background-color: red;
+		height: 80vh;
+		/* background-color: red; */
 	}
 }
 @media screen and (max-width: 768px){
