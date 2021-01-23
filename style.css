@@ -285,11 +285,12 @@ body {
 @media screen and (max-width: 1024px){
 	.main{
 		height: 90vh;
+		background-color: red;
 	}
 }
 @media screen and (max-width: 768px){
 	.main{
-		height: 140vh;
+		height: 110vh;
 	}
 	.footer{
 		margin-top: 0;
