@@ -284,7 +284,7 @@ body {
 /* footer styles' end */
 @media screen and (max-width: 1024px){
 	.main{
-		height: 130vh;
+		height: 90vh;
 	}
 }
 @media screen and (max-width: 768px){
@@ -296,8 +296,5 @@ body {
 		padding: 10px;
 		justify-content: space-between;
 		/* background-color: red; */
-	}
-	.footer .footer__items--link{
-		font-size: 1.2rem;
 	}
 }
