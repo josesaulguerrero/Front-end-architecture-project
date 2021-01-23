@@ -219,3 +219,15 @@ body {
 	color: rgb(0, 252, 96);
 }
 /* footer styles' end */
+@media screen and (max-width: 768px){
+   .main__form{
+      width: 90%;
+      max-width: 90%;
+   }
+}
+@media screen and (max-width: 450px){
+   .main__form{
+      padding-right: 30px;
+      padding-left: 30px;
+   }
+}
